@@ -1,0 +1,46 @@
+
+.div7 {
+    text-align: center;
+    padding-top: 100px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.div7 p {
+    margin-bottom: 30px;
+}
+
+.div7 a {
+    text-decoration: none;
+    color: blue;
+}
+
+.div7 a::after {
+    content: "";
+    display: block;
+    border: 2px solid black;
+    height: 22px;
+    width: 48px;
+    position: relative;
+    top: -24px;
+    left: 107px;
+    border-radius: 3px;
+}
+
+.link:checked + .link__link > a {
+    animation: link-color 15s linear infinite alternate;
+}
+
+.link:checked + .link__link > a::after {
+    animation: link-resumo 15s linear infinite alternate;
+}
+
+.stopAnimationLink p {
+    font-size: 12px;
+    font-weight: 400;
+    font-style: italic;
+    text-transform: lowercase;
+    border-bottom: 1px solid black;
+    width: fit-content;
+    margin: 0 auto;
+}

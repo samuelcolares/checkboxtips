@@ -1,0 +1,112 @@
+@keyframes growHeart {
+    0% {
+        transform: scale(1.13);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1.13);
+    }
+}
+
+@keyframes redHeart {
+    0% {
+        fill: transparent;
+        filter: drop-shadow(0px 0px 1px rgba(255, 0, 0, 1));
+    }
+    25% {
+        filter: drop-shadow(0px 0px 2px rgba(255, 0, 0, 1));
+    }
+    50% {
+        filter: drop-shadow(0px 0px 3px rgba(255, 0, 0, 1));
+    }
+    75% {
+        filter: drop-shadow(0px 0px 4px rgba(255, 0, 0, 1));
+    }
+    100% {
+        fill: #d73b3b;
+        stroke: #d73b3b;
+        filter: drop-shadow(0px 0px 6px rgba(255, 0, 0, 1));
+    }
+}
+
+@keyframes fillBox {
+    0% {
+        background-color: transparent;
+    }
+    100% {
+        background-color: white;
+    }
+}
+
+@keyframes showMenu {
+    0% {
+        transform: rotate(-1deg);
+    }
+    100% {
+        transform: rotate(1deg);
+    }
+}
+
+@keyframes link-resumo {
+    0% {
+        border-color: red red red red;
+    }
+    12.5% {
+        border-color: transparent orange orange orange;
+    }
+    25% {
+        border-color: transparent transparent yellow yellow;
+    }
+    37.5% {
+        border-color: transparent transparent transparent green;
+    }
+    50% {
+        border-color: transparent transparent transparent transparent;
+    }
+    62.5% {
+        border-color: blue transparent transparent transparent;
+    }
+    75% {
+        border-color: rgb(94, 12, 192) rgb(94, 12, 192) transparent transparent;
+    }
+    87.5% {
+        border-color: rgb(242, 13, 219) rgb(242, 13, 219) rgb(242, 13, 219) transparent;
+    }
+    100% {
+        border-color: red red red red;
+    }
+   
+}
+
+@keyframes link-color {
+    0% {
+        color: red;
+    }
+    12.5% {
+        color: orange;
+    }
+    25% {
+        color: yellow;
+    }
+    37.5% {
+        color: green;
+    }
+    50% {
+        color:cyan;
+    }
+    62.5% {
+        color:blue;
+    }
+    75% {
+        color:rgb(94, 12, 192)
+    }
+    87.5% {
+        color:rgb(242, 13, 219);
+    }
+    100% {
+        color:red;
+    }
+    
+}

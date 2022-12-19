@@ -1,0 +1,23 @@
+@import url(../css/animations.css);
+@import url(../css/square.css);
+@import url(../css/heart.css);
+@import url(../css/grid.css);
+@import url(../css/link.css);
+@import url(../css/menu.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(29, 89, 112, 0.932);
+
+    font-family: "poppins";
+}
+
+input {
+    display: none;
+}
+

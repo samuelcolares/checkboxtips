@@ -1,0 +1,51 @@
+@import url(animations.css);
+
+.menu-list {
+    display: none;
+    list-style: none;
+
+}
+
+.menu-list__item {
+    background: rgb(240, 236, 236);
+    width: 50%;
+    border-bottom: 1px solid rgb(84, 84, 206);
+    position: relative;
+    left: 26%;
+    transition: 0.5s;
+}
+
+.menu-list__item:hover {
+    background-color: rgb(84, 84, 206);
+    color: white;
+}
+
+.menu-list__item:last-child {
+    border-bottom: none;
+}
+
+.menu-list__link {
+    text-decoration: none;
+    color: black;
+    padding-left: 15px;
+}
+
+.menu:checked ~ .menu-list {
+    display: block;
+}
+
+.button-menu {
+    display: inline-block;
+    background-color: black;
+    color: aquamarine;
+    padding: 10px;
+    margin: 13% 0 0 22.2%;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.menu:checked + label > .button-menu {
+    animation: showMenu 0.1s ease infinite alternate;
+    background-color: rgb(165, 119, 119);
+    color: black;
+}
